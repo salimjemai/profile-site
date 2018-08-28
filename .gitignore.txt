@@ -1,0 +1,4 @@
+#gitignore file will include the file/folder extention that we don't want to be shown in our remote repo
+
+.jpg
+.png

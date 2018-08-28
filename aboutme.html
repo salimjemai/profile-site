@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<style>
+	.wrapper {
+		display:grid;
+		grid-template-columns: 60% 35%;
+		background: #eee;
+	}
+
+	.wrapper > div:nth-child(odd){
+		background: #ddd;
+	}
+	img {
+		float: left;
+	}
+	div.body{
+		font-family: courier;
+
+	}
+
+	.textellipsis {
+    vertical-align: bottom;
+    white-space: nowrap;
+    overflow-x: hidden;
+    max-width: 100%;
+    display: inline-block;
+    text-overflow: ellipsis;
+}
+
+.BIO a{
+    color: black;
+    padding: 20px 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+
+ a:hover {
+    background-color: green;
+}
+.uList1 li:{
+	padding: 8px;
+    margin-bottom: 8px;
+    background-color: grey;
+    color: #ffffff;
+}
+
+</style>
+<head>
+	<title>Personal Photo</title>
+</head>
+<body>
+
+	<div class="wrapper">
+		<div>			
+			<div >
+				<h1> About me</h1>
+				<img src="byThePool.jpg" alt="my profile picture" style="width:650px;height:550px;" />
+			</div>
+		</div>
+
+		<div>
+			<section class="name-headline"> 
+				<h1 class="name" style="text-align: center"> Salim Jemai</h1>
+			</section>
+			<section style="text-align: center">
+				<h2 class="headline"> 
+						<span class="role">
+							Junior Software Developer
+						</span>
+						<span class="location"> 
+							in Austin, Texas
+						</span>
+				</h2>
+			</section>
+		<!-- </div> -->
+
+		<!-- <div class="BIO"> -->
+			<section style="text-indent:20px ">
+				<h2>
+					BIO:</h2>
+					<p style="text-indent:25px; "> I am a motivated, self starter person and a team player. I am currently looking to gain more knowledge and skills in the software engineering industry. 
+					Check out my blog at
+					</p>
+					<center>
+						<a id ="buttonBlog" href="https://medium.com/@salim.jemai" target="_blank" rel="noopener noreferrer" class="button large dark primary glyph-article" style="background-color:#305B90;border-color:#305B90">
+						Read my blog</a>
+					</center>
+
+			</section>
+			<section>
+				<div class="uList1" style="text-indent: 25px">
+						<ul >
+							<a href="https://github.com/salimjemai"><li>GitHub</li></a>
+							<a href="https://www.linkedin.com/in/salim-jemai-5b8a449b/"><li>LinkedIn</li></a> 
+							<a href="https://medium.com/@salim.jemai"><li>Medium </li></a>
+							<a href="https://stackoverflow.com/story/salimjemai"><li>Stackoverflow </li></a>
+							<a href="https://twitter.com/JemaiSalim"><li>twitter </li></a>
+						</ul>
+				</div>
+			</section>
+		</div>
+	</div>
+
+
+</body>
+</html>
