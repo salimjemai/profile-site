@@ -1,125 +1,36 @@
 <!DOCTYPE html>
 <html>
-<style>
-	img {
-		float: left;
-	}
-	div.body{
-		font-family: courier;
-
-	}
-		
-	body{
-		width:90%;
-		margin:auto;
-		min-width:600px;
-		max-width:2000px
-	}
-
-.social-links {
-	padding: 30px;
-	position: center;
-	display: inline-block;
-}
-.BIO a {
-    color: black;
-    padding: 20px 50px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-grid;
-}
-/*.buttonProfile {
-	background-color: lightgreen;
-	border-radius: 5px;
-	color:white;
-	padding:5em;
-	text-decoration: none;
-}
-
-.buttonProfile:focus,
-.buttonProfile:hover{
-	background-color: blue;
-	color:white;
-}*/
-
-.buttonlarge{
-	 background-color: turquoise;
-	 border-top-right-radius:10px;
-	 border-top-left-radius: 10px;
-	 border-bottom-right-radius: 10px;
-	 border-bottom-left-radius: 10px;
-	 border-color:#305B90;
-}
-.image{
-		min-width:600px;
-		max-width:1000px
-}
-
-.dropbtn {
-    background-color: #4CAF50;
-    color: white;
-    padding: 16px;
-    font-size: 16px;
-    border: none;
-    cursor: pointer;
-}
-
-.dropdown {
-    position: relative;
-    display: inline-grid;
-}
-
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f9f9f9;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-}
-
-.dropdown-content a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: inline-block;
-}
-
-.dropdown-content a:hover {
-	background-color: pink
-}
-
-.dropdown:hover .dropdown-content {
-    display: block;
-}
-
-.dropdown:hover .dropbtn {
-    background-color: #3e8e41;
-}
-
-</style>
 <head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="description" content="">
+	<meta name="author" content="">
+	<link rel="stylesheet" href="css/style.css">
+	<!-- <link rel="stylesheet" href="css/bootstrap.css"> -->
+	
 	<title>Personal Photo</title>
+	<link rel="canonical" href="css/template/">
+
+<link href="css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
-	<h1> About me</h1>
+	<!-- <h1> About me</h1> -->
 	<div class="head">
-		<!-- Provide the absolute path of the picture -->
-		<!-- <img src="C:\Users\Salim\Desktop\profile pictures/byThePool.jpg"/> -->
 		
-		<div class="image">
+		<!-- <!Provide the absolute path of the picture -->
+		<div class="profile-image">
 			<!-- make sure the picture is saved in the same folder where your index file is -->
-			<img src="C:\Users\Salim\Desktop\Internship\Inventive Internship\Full Stack immersive bootcamp\Personal Website/byThePool.jpg" alt="my profile picture" style="width:850px;height:550px;" />
+			<!-- <img src="images\profile1.jpg" alt="my profile picture" style="width:400px;height:600px;" /> -->
 		</div>
-	</div>
-
 	<div class="body">
+
 		<section class="name-headline"> 
 			<h1 class="name" style="text-align: center"> Salim Jemai</h1>
 		</section>
 		<section style="text-align: center">
 			<h2 class="headline"> 
-					<span class="role"> Junior Software Developer</span>
+					<span class="role">Junior Software Developer</span>
+                <br/>
 					<span class="location"> Austin, Texas </span>
 			</h2>
 		</section>
@@ -143,6 +54,13 @@
 		<section>
 
 			<div class="dropdown" >
+			<nav class="navbar navbar-toggleable-md navbar-inverse bg-inverse fixed-top">
+				<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault"
+					aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<a class="navbar-brand" href="#dropdown">Navbar</a>
+
 				<button class="dropbtn">Select profile</button>
 					<center>
 						<div class="dropdown-content">
@@ -162,7 +80,6 @@
 							<a id ="buttonTwitter" target="_blank" href="https://twitter.com/JemaiSalim"
 							rel="noopener noreferrer" class="buttonProfile" role="button">Twitter </a>
 						</div>
-					</center>
 			</div>
 		</section>
 		
@@ -171,13 +88,13 @@
 			<hr>
 				<span class="social-links">
 						<ul class="inline">
-								<a class="social-links" title="visit me on twitter" href="https://twitter.com" target="_blank"> <img src="C:\Users\Salim\Desktop\Internship\Inventive Internship\Full Stack immersive bootcamp\Personal Website\twitter_icon1.png" style="width:80px;height:80px;border-radius: 80%;"></a>
+								<a class="social-links" title="visit me on twitter" href="https://twitter.com" target="_blank"> <img src="images\twitter_icon1.png" style="width:80px;height:80px;border-radius: 80%;"></a>
 														
-								<a class="social-links" title="visit me on LinkedIn" href="https://LinkedIn.com" target="_blank"> <img src="C:\Users\Salim\Desktop\Internship\Inventive Internship\Full Stack immersive bootcamp\Personal Website\linkedin_Icon.png" style="width:80px;height:80px; border-radius: 80%;"></a>
+								<a class="social-links" title="visit me on LinkedIn" href="https://LinkedIn.com" target="_blank"> <img src="images\linkedin_Icon.png" style="width:80px;height:80px; border-radius: 80%;"></a>
 
-								<a class="social-links" title="visit me on Medium" href="https://Medium.com" target="_blank"> <img src="C:\Users\Salim\Desktop\Internship\Inventive Internship\Full Stack immersive bootcamp\Personal Website\Medium_icon.png" style="width:80px;height:80px;border-radius: 80%;"></a>
+								<a class="social-links" title="visit me on Medium" href="https://Medium.com" target="_blank"> <img src="images\Medium_icon.png" style="width:80px;height:80px;border-radius: 80%;"></a>
 														
-								<a class="social-links" title="visit me on stackoverflow" href="https://stackoverflow.com" target="_blank"> <img src="C:\Users\Salim\Desktop\Internship\Inventive Internship\Full Stack immersive bootcamp\Personal Website\stackoverflow_icon.png" style="width:80px;height:80px;border-radius: 80%;"></a>
+								<a class="social-links" title="visit me on stackoverflow" href="https://stackoverflow.com" target="_blank"> <img src="images\stackoverflow_icon.png" style="width:80px;height:80px;border-radius: 80%;"></a>
 						</ul>
 					</span>
 					</div>
@@ -185,5 +102,14 @@
 <script>
 	document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')
 </script>
-
+<!-- <script src="jquery/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n"
+    crossorigin="anonymous"></script>
+<script>
+	window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')
+</script>
+<script src="/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb"
+    crossorigin="anonymous"></script>
+<script src="js/bootstrap.min.js"></script> -->
+<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+<!-- <script src="js/ie10-viewport-bug-workaround.js"></script> -->
 </html>

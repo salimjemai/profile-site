@@ -1,0 +1,96 @@
+div.body {
+    font-family: courier;
+}
+
+body {
+     padding-top: 5rem;
+    /* width: 90%;
+    margin: auto;
+    min-width: 600px;
+    max-width: 2000px */
+}
+
+.social-links {
+    padding: 30px;
+    position: relative;
+    display: inline-block;
+}
+
+.BIO a {
+    color: black;
+    padding: 20px 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-grid;
+}
+
+/*.buttonProfile {
+	background-color: lightgreen;
+	border-radius: 5px;
+	color:white;
+	padding:5em;
+	text-decoration: none;
+}
+
+.buttonProfile:focus,
+.buttonProfile:hover{
+	background-color: blue;
+	color:white;
+}*/
+.buttonlarge {
+    background-color: turquoise;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-color: #305B90;
+}
+
+.profile-image {
+    /* min-width: 600px;
+    max-width: 1000px;
+    float: left;
+    margin: 4px; */
+}
+
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-grid;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.dropdown-content a:hover {
+    background-color: pink
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
